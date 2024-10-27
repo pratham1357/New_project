@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            background-color: #fffef5;
+        }
+        header {
+            text-align: center;
+            padding: 2rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        main img {
+            width: 150px;
+            border: 3px solid #322e3c;
+            border-radius: 2px;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            background-color: #322e3c;
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li{
+            margin: 0 1rem;    
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+            display: block;
+        }
+        main {
+            padding: 2rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            margin: 0 1rem;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        footer ul li a:hover{
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <br><br>
+        
+    </header>
+    <nav>
+        <ul>
+            <li><a href = "#Home">Home</a></li>
+            <li><a href = "#about">About</a></li>
+            <li><a href = "#Projects">Projects</a></li>
+            <li><a href = "#skills">Skills</a></li>
+            <li><a href = "#resume">Resume</a></li>
+            <li><a href = "#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img src = "new_image.jpg" alt = "Photo">
+        <section id = "Home">
+            <h2>Home</h2>
+            <h3>Pratham Lal</h3>
+            <pref>An ambitious and result-driven undergraduate student who has competed in over 15 technical competitions and hackathons, 
+                showcasing sportsmanship and vigour. Proficient in Python, C++, and C programming languages. 
+                Strong believer in using tried-and-tested methods while also being innovative when faced with unique challenges.
+            </pref>                
+        </section>
+        <section id = "about">
+            <h2>About Me</h2>
+            <pref>
+                <p>
+                    Having been interested in technology and curious about its working at a young age, I delved into the world of coding.
+                    Starting off with simple block-coding in Scratch and code.org, then moving on to languages like JavaScript and Python later on.
+                    I stuck with this drive and passion of coding and development all the way till college, while also managing my curricular and 
+                    extra-curricular endeavours. The interest for Cybersecurity came later in class 11 and 12, also influenced by known relatives with
+                    experience in the field. <br><br>
+                    As a college student I hope to expand my technical skills in terms of learning and implementing new languages and concepts. I learnt
+                    C and C++, also its application in a very sought after field, DSA. I have participated in the college club culture by being a core member
+                    in <b><i>IEEE-PCS</i></b>, which has provided me the opportunity to learn and grow how I aim to, in terms of technical skills.<br><br>
+                    Now I plan on dabbling more in WebDev, especially on the backend designing aspect, which I find more interesting than its fronted counterpart.
+                    I shall also stick to my stream's pre-requisites and create more real-life projects in its domain, giving me a confidence boost and an overall
+                    upper hand on the subject.
+                </p>
+            </pref>
+        </section>
+        <section id = "Projects">
+            <h2>Projects</h2>
+            <p>Project 1: Designed a Port scanner under the guidance and assignment of <a href = "https://1stop.ai/projects/placement-prep/index.php">1stop.ai</a> Ethical Hacking mentorship programme.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Intermediate Level experience in Python, C and C++ language</li><br>
+                <li>Number-crunching, clerical and data analytic skills</li><br>
+                <li>Seemless Time Management Skills</li><br>
+                <li>Problem-solving paired with critical thinking</li><br>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="pratham.lal2023@vitstudent.acin" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section id = "resume">
+            <h2>Resume: <a href = "Pratham Lal_resume.pdf" download>Download resume</a></h2>
+            <br><br>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/pratham-lal-69597b28a" target="_blank"><img src = "lin.jpeg" height = 50></a></li>
+            <li><a href="https://x.com/lal_pratham" target="_blank"><img src = "x.png" height = 50></a></li>
+            <li><a href="https://github.com/pratham1357" target="_blank"><img src = "gith.png" height = 50></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
